@@ -1,4 +1,6 @@
 import React from 'react'
+import Container from '../../components/Container'
+import Heading from '../../components/Heading'
 import productOne from '../../assets/p1.png'
 import productTwo from '../../assets/p2.png'
 import productThree from '../../assets/p3.png'
