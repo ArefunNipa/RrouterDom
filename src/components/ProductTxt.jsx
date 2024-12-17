@@ -5,7 +5,6 @@ import { FaHeart, FaCodeCompare, FaCartShopping } from "react-icons/fa6";
 import Badge from './Badge';
 import Image from './Image';
 import { Link } from 'react-router-dom';
-import Users from './Users';
 
 const ProductTxt = ({ badgeName, imgSrc, textOneH, textTwoH, textThreeH, pHeadingTxt, pPrice, pColor }) => {
     return (

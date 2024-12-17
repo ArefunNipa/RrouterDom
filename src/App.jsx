@@ -1,37 +1,20 @@
 import './App.css'
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-  Route,
-} from "react-router-dom";
+import { Routes, Route } from "react-router";
 
+import Home from './components/pages/Home';
+import Layout from './components/RootLayout/Layout';
 import Products from './components/layout/Products';
-import Users from './components/Users';
 
-const router = createBrowserRouter(
-
-  createRoutesFromElements(
-    <>
-      {/* <Route
-        path="/" element={"This is Nipa"}
-      /> */}
-
-      <Route
-        path="/" element={<Products />}
-      />
-      <Route
-        path="/" element={<Users />}
-      />
-    </>
-  )
-);
-
+                         
 function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <Routes>
+          <Route element={<Layout />} >
+            <Route path="/" element={<Products />} />
+          </Route>
+      </Routes>
     </>
   )
 }

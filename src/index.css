@@ -14,7 +14,7 @@
 
 ul.slick-dots li {
     position: relative;
-    color: white;
+    color: rgb(24 24 24 / 45%);
 }
 
 ul.slick-dots li:after {
@@ -75,5 +75,5 @@ ul.slick-dots li.slick-active {
 
 .slick-initialized .slick-slide {
     display: block;
-    padding-right: 20px;
+    padding:0 10px;
 }
